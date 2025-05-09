@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Pernikahan Anni & Farhan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay" id="welcome-screen">
+        <div class="welcome-content">
+            <h1 class="fancy-title">The Wedding of</h1>
+            <h2 class="couple-name">Anni & Farhan</h2>
+            <p class="wedding-date">Minggu, 1 Juni 2025</p>
+            <div class="invitation-to">
+                <p>Dengan penuh kebahagiaan, kami mengundang</p>
+                <p>Bapak/Ibu/Saudara/i</p>
+                <h3 id="guest-name">Tamu Undangan</h3>
+                <p>untuk menyaksikan momen sakral penyatuan cinta kami</p>
+            </div>
+            <button id="open-invitation" class="btn-main">Buka Undangan</button>
+        </div>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="assets/music/music.mp3" type="audio/mpeg" />
+    </audio>
+    
+    <div class="music-control">
+        <button id="music-toggle"><i class="fas fa-music"></i></button>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fancy-title">The Wedding of</h1>
+            <h2 class="couple-name">Anni & Farhan</h2>
+            <p class="wedding-date">Minggu, 1 Juni 2025</p>
+            
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <p>Hari</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <p>Jam</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <p>Menit</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <p>Detik</p>
+                </div>
+            </div>
+            <p class="save-date">Menuju Hari Bahagia Kami</p>
+        </div>
+    </header>
+
+    <section class="couple-section">
+        <div class="container">
+            <h2 class="section-title">Assalamu'alaikum Wr. Wb.</h2>
+            <p class="section-text">Dengan mengharap rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami bermaksud mengikat janji suci dalam ikatan pernikahan yang diberkahi. Momen sakral di mana dua hati bersatu dalam satu cinta, dua jiwa bertemu dalam satu ikatan:</p>
+            
+            <div class="couple-info">
+                <div class="bride">
+                    <h3>Anni, S.HI</h3>
+                    <p>Putri tercinta dari</p>
+                    <p>Bapak Ahmad & Ibu Siti</p>
+                    <p class="romantic-text">Dengan cinta yang tulus dan hati yang berdebar, aku menantikan saat kita berdua berdiri di hadapan Allah untuk mengikrarkan janji suci.</p>
+                </div>
+                
+                <div class="heart">&</div>
+                
+                <div class="groom">
+                    <h3>Farhan, S.T</h3>
+                    <p>Putra tercinta dari</p>
+                    <p>Bapak Hasan & Ibu Aminah</p>
+                    <p class="romantic-text">Setiap detak jantungku adalah untukmu, setiap langkahku menuju padamu, dan setiap doaku selalu menyebut namamu.</p>
+                </div>
+            </div>
+            
+            <div class="quote-container">
+                <p class="quote">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang."</p>
+                <p class="quote-source">- QS. Ar-Rum: 21</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="event-details">
+        <div class="container">
+            <h2 class="section-title">Momen Sakral Pernikahan Kami</h2>
+            <p class="section-text">Kami mengundang Anda untuk menyaksikan janji suci kami di hadapan Allah SWT</p>
+            
+            <div class="event-card">
+                <h3>Akad Nikah</h3>
+                <p class="romantic-text">Saat dua hati resmi dipersatukan dalam ikatan suci pernikahan</p>
+                <div class="event-info">
+                    <div class="event-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <p>Minggu, 1 Juni 2025</p>
+                    </div>
+                    <div class="event-time">
+                        <i class="fas fa-clock"></i>
+                        <p>Pukul 08.00 WIB - Selesai</p>
+                    </div>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Masjid Al-Hikmah</p>
+                        <p>Jl. Raya Pamekasan No. 123</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="event-card">
+                <h3>Resepsi</h3>
+                <p class="romantic-text">Berbagi kebahagiaan dan sukacita bersama keluarga dan sahabat tercinta</p>
+                <div class="event-info">
+                    <div class="event-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <p>Minggu, 1 Juni 2025</p>
+                    </div>
+                    <div class="event-time">
+                        <i class="fas fa-clock"></i>
+                        <p>Pukul 11.00 WIB - 14.00 WIB</p>
+                    </div>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Gedung Serbaguna ABC</p>
+                        <p>Jl. Raya Pamekasan No. 123</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <a href="https://maps.google.com" target="_blank" class="btn-main">Temukan Lokasi Bahagia Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Galeri Cinta Kami</h2>
+            <p class="section-text">Setiap foto menceritakan kisah cinta yang indah, setiap tatapan menyimpan sejuta makna</p>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="assets/images/1.jpg" alt="Foto Prewedding 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/2.jpg" alt="Foto Prewedding 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/3.jpg" alt="Foto Prewedding 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/4.jpg" alt="Foto Prewedding 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="love-story">
+        <div class="container">
+            <h2 class="section-title">Perjalanan Cinta Kami</h2>
+            <p class="section-text">Setiap pertemuan adalah takdir, setiap tatapan adalah awal dari sebuah cerita</p>
+            <div class="story-timeline">
+                <div class="story-item">
+                    <div class="story-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="story-content">
+                        <h3>Awal Bertemu</h3>
+                        <p>Takdir mempertemukan kami melalui pesan di Telegram. Seperti bintang yang bersinar di langit malam, kehadiranmu menerangi hidupku yang gelap. Dari obrolan sederhana, tumbuh benih-benih cinta yang kini mekar dengan indahnya.</p>
+                    </div>
+                </div>
+                <div class="story-item">
+                    <div class="story-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <div class="story-content">
+                        <h3>Lamaran</h3>
+                        <p>Di bawah langit berbintang pada Sabtu, 18 April 2025, aku berlutut dan meminta hatimu untuk selamanya. Dua bulan yang terasa seperti seumur hidup, karena denganmu, waktu berhenti dan cinta berbicara. Saat itu, aku tahu bahwa engkaulah pelengkap hidupku.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">Konfirmasi Kehadiran</h2>
+            <p class="section-text">Kehadiran dan doa restu Anda adalah hadiah terindah bagi kami</p>
+            
+            <form id="rsvp-form" class="rsvp-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Nama" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="guests" placeholder="Jumlah" required min="1">
+                </div>
+                <div class="form-group">
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="attendance" value="hadir" checked>
+                            <span>Dengan senang hati, saya akan hadir</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="attendance" value="ragu">
+                            <span>Masih dalam pertimbangan</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="attendance" value="tidak">
+                            <span>Mohon maaf, saya tidak dapat hadir</span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-main">Kirim Konfirmasi</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Ucapan & Doa</h2>
+            <p class="section-text">Setiap kata yang terucap adalah doa yang akan menyertai perjalanan cinta kami</p>
+            
+            <div class="wishes-stats">
+                <span>0 Ucapan</span>
+                <span>0 Hadir</span>
+                <span>0 Tidak hadir</span>
+            </div>
+            
+            <form id="wishes-form" class="wishes-form">
+                <textarea id="wish-message" placeholder="Tuliskan harapan dan doa terbaik Anda untuk kami..." required></textarea>
+                <div class="form-buttons">
+                    <button type="submit" class="btn-main">Kirimkan Doa</button>
+                </div>
+            </form>
+            
+            <div id="wishes-container" class="wishes-container">
+                <!-- Wishes will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-section">
+        <div class="container">
+            <h2 class="section-title">Hadiah Kasih</h2>
+            <p class="section-text">Kehadiran dan doa Anda adalah hadiah terindah bagi kami. Namun, jika Anda berkenan memberikan tanda kasih, kami dengan senang hati menerimanya melalui:</p>
+            
+            <div class="gift-cards">
+                <div class="gift-card">
+                    <h3>Amplop Digital</h3>
+                    <p>Rekening</p>
+                    <div class="account-number">1234567890</div>
+                    <button class="btn-copy" data-clipboard="1234567890">Salin Nomor</button>
+                    <p>Atas Nama</p>
+                    <p><strong>Anni</strong></p>
+                    <p>Bank BCA</p>
+                </div>
+                
+                <div class="gift-card">
+                    <h3>Amplop Digital</h3>
+                    <p>Rekening</p>
+                    <div class="account-number">0987654321</div>
+                    <button class="btn-copy" data-clipboard="0987654321">Salin Nomor</button>
+                    <p>Atas Nama</p>
+                    <p><strong>Farhan</strong></p>
+                    <p>Bank Mandiri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Tiada kata yang dapat melukiskan kebahagiaan kami selain ungkapan syukur kepada Allah SWT. Kehadiran dan doa restu Bapak/Ibu/Saudara/i akan semakin menyempurnakan hari bahagia kami.</p>
+            <p>Dengan penuh cinta, kami mengharapkan kehadiran Anda untuk berbagi kebahagiaan di hari yang istimewa ini.</p>
+            <p>Wassalamu'alaikum Wr. Wb.</p>
+            <div class="couple-footer">
+                <p>Dalam Naungan Cinta dan Ridho-Nya</p>
+                <h3>Anni & Farhan</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
